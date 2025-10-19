@@ -1,0 +1,42 @@
+# Meson build directories and caches
+/build/
+/_build/
+/builddir*/
+/meson-logs/
+/meson-info/
+/meson-private/
+/subprojects/
+
+# Compilation database
+/compile_commands.json
+
+# Common C/C++ build artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.app
+*.pdb
+*.ilk
+*.exp
+
+# Coverage and profiling
+*.gcno
+*.gcda
+*.gcov
+*.profdata
+*.profraw
+
+# Editor cruft
+*~
+*.swp
+.DS_Store
+.cache/

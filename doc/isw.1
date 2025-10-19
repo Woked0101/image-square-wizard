@@ -1,0 +1,51 @@
+.\" Minimal man page for image-square-wizard
+.TH ISW 1 "October 2025" "image-square-wizard 0.1.0" "User Commands"
+.SH NAME
+isw \- pad images to a square canvas using libvips
+.SH SYNOPSIS
+.B isw
+[
+.B --rcb
+.I SPEC
+]
+.I INPUT
+.I OUTPUT
+.br
+.B isw
+.B --help
+.br
+.B isw
+.B --version
+.SH DESCRIPTION
+\fBisw\fR (image-square-wizard) analyses the aspect ratio of an image and pads
+it to a square canvas via libvips. By default it probes the dominant color in
+the image and uses that color for the newly created borders. The utility can
+also accept an explicit background color or add transparent padding.
+.SH OPTIONS
+.TP
+.B -r, --rcb SPEC
+Set the resizer canvas background. Accepts \fItransparent\fR, hexadecimal
+colors (#rgb, #rrggbb, #rgba, #rrggbbaa) or comma separated numeric triples/
+quadruples (e.g. 12,34,56 or 12,34,56,128). Components must be between 0 and
+255. Transparency requires an alpha-capable output format.
+.TP
+.B --help
+Show detailed help text and exit.
+.TP
+.B --version
+Show version information and exit.
+.SH NOTES
+.IP \(bu 2
+Input and output formats must be supported by libvips (jpg, png, webp, heic,
+heif, tif, tiff, avif). Unsupported extensions abort processing.
+.IP \(bu 2
+Transparent backgrounds require alpha-capable formats (png, webp, heic, heif,
+tif, tiff, avif). Attempting to use \fItransparent\fR with other formats exits
+with an error.
+.SH EXIT STATUS
+Returns 0 on success. Non-zero exit codes indicate invalid arguments or libvips
+failures.
+.SH AUTHOR
+Igor Klepacki <neg4n@icloud.com> - neg4n.dev - https://github.com/neg4n/
+.SH SEE ALSO
+\fBvipsthumbnail\fR(1), \fBvips\fR(1)
